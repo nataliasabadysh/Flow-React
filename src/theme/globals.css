@@ -1,0 +1,12 @@
+body {
+    min-height: 100vh;
+    background-color: var(--paletteColor3);
+    
+    /* Зачаровать шрифты */
+    font-smoothing: antialiased;
+    font-variant-ligatures: none;
+
+    & input[disabled] {
+        cursor: initial;
+    }
+}
